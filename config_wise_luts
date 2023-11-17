@@ -1,0 +1,30 @@
+[6SV]
+sixs = sixsV1.1
+ncores = 4
+[Geo]
+sz = 0,5,15,25,35,45,55,65
+vz = 0,5,15,25,35,45,55,65
+phi = 0,15,30,45,60,75,90,105,120,135,150,165,180
+[Gas]
+wv = 0.005,0.01,0.05,0.2,0.5,1,2,4,6
+o3 = 0.20,0.30,0.40,0.500
+[Aerosol]
+start_i = 1
+end_i = 2
+taua550=0.005,0.01,0.02,0.04,0.08,0.16,0.32
+dust = 0.0,0.2,0.4,0.6,0.8,1
+soot = 0.0,0.2,0.4,0.6,0.8,1
+oceanic = 0.0,0.2,0.4,0.6,0.8,1
+water = 0.0,0.2,0.4,0.6,0.8,1
+[Ground]
+altitude = 0
+[WISE]
+altitude = 1
+imagename = 190820_MC-C1B-WI-1x1x1_v01
+[IO]
+out_dir = /mnt/d/Work/Programe/WISE_LUTs/input
+[METEO]
+windspeed = 0.1,0.5,1,5,10,20
+
+
+

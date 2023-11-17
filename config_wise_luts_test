@@ -1,0 +1,25 @@
+[6SV]
+sixs = None
+ncores = 8
+[Geo]
+sz = 5,40
+vz = 5,25
+phi = 5,55
+[Gas]
+wv = 0.005,0.01
+o3 = 0.230,0.310
+[Aerosol]
+start_i = 0
+end_i = 2
+taua550=0.01,0.1,0.2
+dust = 0.0,0.2,0.4,0.6,0.8,1
+soot = 0.0,0.2,0.4,0.6,0.8,1
+oceanic = 0.0,0.2,0.4,0.6,0.8,1
+water = 0.0,0.2,0.4,0.6,0.8,1
+[Ground]
+altitude = 0
+[WISE]
+altitude = 3
+imagename = 190820_MC-C1B-WI-1x1x1_v01
+[IO]
+out_dir = ./data
